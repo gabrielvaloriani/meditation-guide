@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Meditation-React-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+![Project Image](./src/components/images/Preview.PNG)
 
-In the project directory, you can run:
+</br>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> This is a meditatino app that guide give you a timer and a guide that follow you during the meditation!
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Table of Contents
 
-### `npm test`
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [Author Info](#author-info)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Description
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project involved creating a meditation app using React and some hooks that can give you a personal timer for a meditation session and an audio guide that follow you during the breathing. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- HTML  
+- CSS
+- Javascript
+- React
+- Visual Studio Code
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Back To The Top](#Meditation-React-App)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How To Use
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The use is quite simple, there are 3 buttons: 
+- The first button with the frase "Let's Meditate!" start the timer, if you enter for example 5 as the minutes that you want to meditate and as soon as you click it the count down start and with it the audio guide start. 
+- The second one as you can imagine :) reset the timer and with it the audio guide. 
+- The third one as soon as you click to start meditate will be appear as pause and will pause both the timer and the audio guide, after that will appear the word resume and if you click it again allows you to re-start both.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### API Reference
+- Little example of one of the consts that I used.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+    const start = () => {
+    const minutes = parseInt(inputElement.current.value, 10);
+    if (!isNaN(minutes) && minutes > 0) {
+      setCounter(minutes * 60);
+      setTimerRunning(true);
+      startAudio();
+    }
+  };
+```
+[Back To The Top](#Meditation-React-App)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Author Info
+I wll see you on my social media!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Twitter - [@GabrielValorianiFranco](https://twitter.com/GabrielValoria)
+- Linkedin - [GabrielValoriani](https://www.linkedin.com/in/gabriel-valoriani-franco-9971a3291/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back To The Top](#Meditation-React-App)
