@@ -9,7 +9,8 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 400px;
+  width: 350px;
+  height: 150px;
 }
 
 
@@ -21,7 +22,7 @@
   margin-right: 15px;
   border-color: #009999;
   border-width: 2px;
-  color: #009999;
+  border-top-color: #009999;
 }
 
 .time {
