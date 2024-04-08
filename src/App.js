@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './components/styles-components/background.css';
 import Navbar from './components/navbar';
 import Timer from './components/timer';
