@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+
+.navbar {
+  background: #0059b2;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 40px;
+}
+
+.title {
+  margin: 0;
+  font-family: "Ultra", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 13px;
+    margin: 15px 0 15px 20px;
+  }
+}

@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/montagna.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 600px) {
+  body {
+    background-size: 150% 100%;
+  }
+}

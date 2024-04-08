@@ -1,4 +1,4 @@
-# Meditation-React-App
+# meditation-guide
 
 
 ![Project Image](./src/components/images/Preview.PNG)
@@ -30,7 +30,7 @@ The project involved creating a meditation app using React and some hooks that c
 - Visual Studio Code
 
 
-[Back To The Top](#Meditation-React-App)
+[Back To The Top](#meditation-guide)
 
 ---
 
@@ -55,7 +55,7 @@ The use is quite simple, there are 3 buttons:
     }
   };
 ```
-[Back To The Top](#Meditation-React-App)
+[Back To The Top](#meditation-guide)
 
 ---
 
@@ -66,4 +66,4 @@ I wll see you on my social media!
 - Twitter - [@GabrielValorianiFranco](https://twitter.com/GabrielValoria)
 - Linkedin - [GabrielValoriani](https://www.linkedin.com/in/gabriel-valoriani-franco-9971a3291/)
 
-[Back To The Top](#Meditation-React-App)
+[Back To The Top](#meditation-guide)
