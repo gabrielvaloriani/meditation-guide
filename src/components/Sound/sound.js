@@ -1,8 +1,10 @@
+import React from 'react'
 import { useState, useRef, useEffect } from 'react';
-import './styles-components/timer.css'
-import meditationAudio from './audio-guide/audio-meditation.mp3';
+import meditationAudio from '../audio-guide/audio-meditation.mp3';
 
-function Timer() {
+
+
+function Guide() {
   const inputElement = useRef(null);
   const audioRef = useRef(null);
   const [counter, setCounter] = useState(0);
@@ -91,28 +93,33 @@ function Timer() {
   }, [counter]);
 
   return (
-    <div className='timer-container'>
-      <audio ref={audioRef} src='./audio-guide/audio-meditation'/>
-      <br/><br/>
-      <div>
-        <div className='input-container'>
-          <input
-            type='text'
-            ref={inputElement}
-            placeholder='Enter time in mins'
-            className='input'
-          />
-          <h2 className='time'>{minSec}</h2>
-        </div>
-        <div className='button-container'>
-          <button onClick={start} >Let's Meditate!</button>
-          <button onClick={reset} >Reset</button>
-          <button onClick={togglePause} >{timerRunning ? 'Pause' : 'Resume'}</button>
-        </div>
+    <>
+      <div className="guide">
+        <h5 className="title">- Turn up the volume if you want the right atmosphere -</h5>
       </div>
-      
-    </div>
+      <div className='timer-container'>
+        <audio ref={audioRef} src='./audio-guide/audio-meditation'/>
+        <br/><br/>
+        <div>
+          <div className='input-container'>
+            <input
+              type='text'
+              ref={inputElement}
+              placeholder='Enter time in mins'
+              className='input'
+            />
+            <h2 className='time'>{minSec}</h2>
+          </div>
+          <div className='button-container'>
+            <button onClick={start} >Let's Meditate!</button>
+            <button onClick={reset} >Reset</button>
+            <button onClick={togglePause} >{timerRunning ? 'Pause' : 'Resume'}</button>
+          </div>
+        </div>
+        
+      </div>
+    </>
   );
 }
 
-export default Timer;
+export default Guide;
