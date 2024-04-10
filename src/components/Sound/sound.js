@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react';
-import meditationAudio from '../audio-guide/audio-meditation.mp3';
+import meditationAudio from '../audio-guide/30-minutes-audio.mp3';
 
 
 

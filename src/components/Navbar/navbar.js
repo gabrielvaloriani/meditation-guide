@@ -14,10 +14,10 @@ const Navbar = () => {
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/Guide">Audio Guide</Link>
           </li>
-          <li>
+          <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/Sound">Just Chill Sound</Link>
           </li>
         </ul>
