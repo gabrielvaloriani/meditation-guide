@@ -109,9 +109,9 @@ function Guide() {
             <h2 className='time'>{minSec}</h2>
           </div>
           <div className='button-container'>
-            <button onClick={start} >Let's Meditate!</button>
-            <button onClick={reset} >Reset</button>
-            <button onClick={togglePause} >{timerRunning ? 'Pause' : 'Resume'}</button>
+            <button onClick={start} className='btn'>Let's Meditate!</button>
+            <button onClick={reset} className='btn'>Reset</button>
+            <button onClick={togglePause} className='btn'>{timerRunning ? 'Pause' : 'Resume'}</button>
           </div>
         </div>
         
