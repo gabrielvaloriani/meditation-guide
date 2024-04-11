@@ -14,7 +14,7 @@
 </br>
 
 
-> This is a meditatino app that gives you a timer and a guide that follow you during the meditation!
+> This is a meditation app that gives you a timer and a guide that follow you during the meditation!
 ---
 
 ### Table of Contents
