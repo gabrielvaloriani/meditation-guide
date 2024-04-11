@@ -1,7 +1,15 @@
 # Meditation-guide
 
 
-![Project Image](./src/components/images/Preview.PNG)
+![Project Image](./src/components/images/Preview-1.PNG)
+
+</br>
+
+![Project Image](./src/components/images/Preview-2.PNG)
+
+</br>
+
+![Project Image](./src/components/images/Preview-3.PNG)
 
 </br>
 
@@ -19,12 +27,13 @@
 
 ## Description
 
-The project involved creating a meditation app using React and some hooks that can give you a personal timer for a meditation session and an audio guide that follow you during the breathing. 
+The project involved creating a meditation app using React and some hooks that can give you a personal timer for a meditation session <br/>
+and an audio guide that follow you during the breathing if you want there is a version with only the sound of a stream. 
 
 #### Technologies
 
 - HTML  
-- CSS
+- SCSS
 - Javascript
 - React
 - Visual Studio Code
@@ -37,9 +46,12 @@ The project involved creating a meditation app using React and some hooks that c
 ## How To Use
 
 The use is quite simple, there are 3 buttons: 
-- The first button with the frase "Let's Meditate!" start the timer, if you enter for example 5 as the minutes that you want to meditate and as soon as you click it the count down start and with it the audio guide start. 
-- The second one as you can imagine :) reset the timer and with it the audio guide. 
-- The third one as soon as you click to start meditate will be appear as pause and will pause both the timer and the audio guide, after that will appear the word resume and if you click it again allows you to re-start both.
+- The first button with the frase "Let's Meditate!" start the timer, if you enter for example 5 as the minutes <br/> 
+that you want to meditate and as soon as you click it the count down start and with it the audio guide start <br/>
+or if you are on the last page you will hear the sound of the stream. 
+- The second one as you can imagine :) reset the timer and with it the audio guide or the sound. 
+- The third one as soon as you click to start meditate will be appear as pause and will pause both the timer and <br/>
+the audio guide or the sound, after that will appear the word resume and if you click it again allows you to re-start both.
 
 
 #### API Reference
