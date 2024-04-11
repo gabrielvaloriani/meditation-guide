@@ -3,7 +3,7 @@ import React from "react";
 import './components/background/background.css';
 import Guide from './components/Guide/guide.js';
 import Home from "./components/Home/home.js"; 
-import Navbar from "./components/Navbar/Navbar.js";
+import Navbar from "./components/Navbar/navbar.js";
 import Sound from "./components/Sound/sound.js";
 
 
