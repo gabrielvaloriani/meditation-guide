@@ -1,10 +1,10 @@
 import  { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from "react";
 import './components/background/background.css';
-import Guide from './components/Guide/Guide.js';
-import Home from "./components/Home/Home.js"; 
+import Guide from './components/Guide/guide.js';
+import Home from "./components/Home/home.js"; 
 import Navbar from "./components/Navbar/Navbar.js";
-import Sound from "./components/Sound/Sound.js";
+import Sound from "./components/Sound/sound.js";
 
 
 function App() {
