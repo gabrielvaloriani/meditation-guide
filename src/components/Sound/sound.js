@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState, useRef, useEffect } from 'react';
 import meditationAudio from '../audio-guide/30-minutes-audio.mp3';
+import { Helmet } from 'react-helmet';
 
 
-
-function Guide() {
+function Sound() {
   const inputElement = useRef(null);
   const audioRef = useRef(null);
   const [counter, setCounter] = useState(0);
@@ -94,6 +94,9 @@ function Guide() {
 
   return (
     <>
+      <Helmet>
+        <title>Just Chill Sound</title>
+      </Helmet>
       <div className="guide">
         <h5 className="title">- Turn up the volume if you want the right atmosphere -</h5>
       </div>
@@ -122,4 +125,4 @@ function Guide() {
   );
 }
 
-export default Guide;
+export default Sound;

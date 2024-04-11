@@ -1,0 +1,31 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+$mainColor: #009999;
+
+.home-container {
+  @include flexCenter();
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 190px;
+  box-shadow: 5px 10px 5px #000000;
+}
+
+.home-container iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+.home-title {
+  color: $mainColor;
+}

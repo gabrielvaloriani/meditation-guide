@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=s');
+@import "./container.scss";
+
+@media (max-width: 600px) {
+
+  .home-container {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+  }
+  .gif-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .gif-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-left: -40%; 
+  }
+
+  .timer-container {
+    width: 90%;
+    height: 20%;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+}

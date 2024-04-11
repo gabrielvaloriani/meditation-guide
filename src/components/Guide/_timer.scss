@@ -1,0 +1,53 @@
+
+.timer-container {
+  @include flexCenter();
+  color: $whiteColor;
+  background: $whiteColor;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 240px;
+  box-shadow: 5px 10px 5px #000000;
+}
+
+.input-container {
+  display: flex;
+  margin: 0 0 20px 20px;
+}
+
+.input{
+  margin-right: 15px;
+  border-color: $colorStandard;
+  border-width: 2px;
+  width: 200px;
+}
+
+.time {
+  background: $colorStandard;
+  color: $whiteColor;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 7px;
+  width: 90px;
+  height: 45px;
+}
+
+.button-container button {
+  border-color: $colorStandard;
+  border-width: 2px;
+  color: $colorStandard;
+  padding: 5px;
+  border-radius: 2px;
+  margin-right: 20px;
+  background: #fff;
+  box-shadow: 2px 5px 10px;
+}
+.button-container button:hover {
+  background: $colorStandard;
+  transition: 0.5s;
+  color: $whiteColor;
+}

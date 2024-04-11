@@ -1,4 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
-@import "./variables.scss";
-@import "./guide.scss";
-@import "./timer.scss"
+@import "./variables";
+@import "./guide";
+@import "./timer";
+
+@media (max-width: 600px) {
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+  .title {
+    font-size: 13px;
+    margin: 15px 0 15px 20px;
+  }
+}

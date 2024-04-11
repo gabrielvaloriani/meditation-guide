@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-import './guide.css'
+import './style.scss';
 import meditationAudio from '../audio-guide/audio-meditation.mp3';
+import { Helmet } from 'react-helmet';
 
 function Guide() {
   const inputElement = useRef(null);
@@ -92,8 +93,13 @@ function Guide() {
 
   return (
     <>
+      <Helmet>
+        <title>Audio Guide</title>
+      </Helmet>
       <div className="guide">
-        <h5 className="title">- Turn up the volume if you want to be guided -</h5>
+        <h5 className="title">
+            - Turn up the volume if you want to be guided -
+        </h5>
       </div>
       <div className='timer-container'>
         <audio ref={audioRef} src='./audio-guide/audio-meditation'/>
@@ -114,7 +120,6 @@ function Guide() {
             <button onClick={togglePause} className='btn'>{timerRunning ? 'Pause' : 'Resume'}</button>
           </div>
         </div>
-        
       </div>
     </>
   );
