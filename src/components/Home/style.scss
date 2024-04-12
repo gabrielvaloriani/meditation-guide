@@ -5,9 +5,7 @@
 
   .home-container {
     width: 80%;
-    position: absolute;
-    left: 50%;
-    top: 30%;
+    margin-left: 60px;
   }
   .gif-container {
     position: fixed;
@@ -27,11 +25,6 @@
     height: 100%;
     object-fit: cover;
     padding-left: -40%; 
-  }
-
-  .timer-container {
-    width: 90%;
-    height: 20%;
   }
 
   .title {
