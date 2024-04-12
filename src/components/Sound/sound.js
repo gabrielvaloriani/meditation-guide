@@ -95,7 +95,7 @@ function Sound() {
   return (
     <>
       <Helmet>
-        <title>Just Chill Sound</title>
+        <title>Relax Sound</title>
       </Helmet>
       <div className="guide">
         <h5 className="title">- Turn up the volume if you want the right atmosphere -</h5>
